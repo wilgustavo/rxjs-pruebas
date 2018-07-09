@@ -3,8 +3,7 @@
 import { from } from 'rxjs/observable/from';
 import { map } from 'rxjs/operators';
 
-
-const sumar10 = (val) => Number(val) + 10; 
+const sumar10 = val => Number(val) + 10;
 
 // emitir (1,2,3,4,5)
 const source = from([1, 2, 3, 4, 5]);
